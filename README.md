@@ -1,5 +1,5 @@
 # Thinkpad Hotkey Fix
-### [https://www.reddit.com/r/thinkpad/comments/r18cbr/comment/l30weol/](https://www.reddit.com/r/thinkpad/comments/r18cbr/remapping_call_keys_f9_f10_f11/)
+### Problem description: [https://www.reddit.com/r/thinkpad/comments/r18cbr/comment/l30weol/](https://www.reddit.com/r/thinkpad/comments/r18cbr/remapping_call_keys_f9_f10_f11/)
 ### Instructions:
 * Download `update.reg` by:
     * ...visiting the following URL:
@@ -9,3 +9,10 @@
 * Double-click the downloaded file to merge it with the registry
 * Select Yes/OK on any confirmation dialogs that appear
 * Done!
+
+### Reference:
+* The registry file creates/modifies the following keys:
+   * `HKEY_LOCAL_MACHINE\SOFTWARE\Lenovo\ShortcutKey\AppLaunch\Ex_96`
+   * `HKEY_LOCAL_MACHINE\SOFTWARE\Lenovo\ShortcutKey\AppLaunch\Ex_97`
+   * `HKEY_LOCAL_MACHINE\SOFTWARE\Lenovo\ShortcutKey\AppLaunch\Ex_98`
+   * `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Teams`
